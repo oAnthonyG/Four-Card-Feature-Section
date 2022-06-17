@@ -1,0 +1,104 @@
+body{
+    background-color: hsl(0, 0%, 98%);
+}
+.container{
+    width: 95%;
+    height: 80%;
+    margin-inline: auto;
+    padding: 20px 20px 0 20px;
+    
+}
+
+.four-cards{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.two-card{
+    margin-top: -100px;
+}
+.card-title{
+    font-size: 18px;
+    text-align: center;
+    width: 500px;
+    height: 200px;
+    margin-inline: auto;
+}
+
+.card-title .main-title{
+    font-weight: 200;
+    color: hsl(234, 12%, 34%);
+}
+.card-title .main-subtitle{
+    font-weight: 600;
+    opacity: 0.8;
+}
+
+.card-title .text{
+    font-size: 15px;
+    color: hsl(229, 6%, 66%);
+}
+
+.mini-card{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 250px;
+    margin: 10px 10px 20px 15px;
+    padding: 20px 20px 0 20px;
+    border-radius: 5px;
+    border-top: 5px solid hsl(180, 62%, 55%);
+    background-color: white;
+    box-shadow: 0px 5px 5px hsl(229, 6%, 66%);
+}
+.mini-card.-bordRed{
+    border-top: 5px solid red;
+}
+.mini-card.-bordOrange{
+    border-top: 5px solid hsl(34, 97%, 64%);
+}
+.mini-card.-bordBlue{
+    border-top: 5px solid hsl(212, 86%, 64%);
+}
+
+.mini-card h3{
+    font-size: 16px;
+    font-weight: 600;
+}
+.mini-card p{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.8;
+    color: hsl(229, 6%, 66%);
+}
+.mini-card img{
+    align-self: flex-end;
+    width: 70px;
+    height: 70px;
+    margin-top: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
